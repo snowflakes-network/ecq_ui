@@ -2,7 +2,7 @@
   <div class="row align-items-center">
     <div class="col-6">
       <%= for %{name: name, label: label} <- @actions do %>
-        <button type="button" class="my-2 btn btn-danger btn-sm js-action" data-name="{name}" ><%= label %></button>
+        <button type="button" class="my-2 btn btn-danger btn-sm js-action" data-name={name} ><%= label %></button>
       <% end %>
     </div>
     <div class="col-6">
